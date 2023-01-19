@@ -1,34 +1,21 @@
-.header {
-  display: flex;
-  justify-content: center;
-}
-
-.header img{
-  margin: 2em;
-  width: 30%;
-  border-bottom: 1px dotted #000;
-}
-
-
 #logo {
   margin-left: 5em;
   width: 45%
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  background-color: #000;
+#nav-logo {
+  width: 12%;
+  margin-top: 1em;
+  margin-left: 3em;
 }
 
-.footer p {
-  color: #fff;
-  text-align: center;
-  margin: .5em;
-}
-
+@media (max-width: 1050px) {
+  #nav-logo {
+    width: 12%;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  }
 
 .navbar {
   display: flex;
@@ -38,9 +25,6 @@
   align-content: center;
 }
 
-#social {
-  margin: .5em;
-}
 
 #nav {
   color: #fff;
@@ -49,7 +33,7 @@
 }
 
 #link {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #000;
   text-decoration: none;
@@ -59,7 +43,7 @@
 
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 30px;
   color: black;
@@ -67,7 +51,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgb(100, 100, 100);
@@ -75,7 +59,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 25px;
   color: black;
@@ -87,7 +71,7 @@ button {
   padding: .5em;
   margin: 1em;
   font-size: 18px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 button:hover {
@@ -99,7 +83,7 @@ button:hover {
 
 .offcanvas-body {
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #000;
   text-decoration: none;
@@ -109,192 +93,24 @@ button:hover {
   color:rgb(0, 217, 255);
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-}
 
 
-/* Main Box Slider images */
-
-.slider {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.slider img {
-  width: 20%;
-  margin: .5em;
-}
-
-.slide {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-#slider {
-width: 20%;
-margin: 1em;
-}
-
-
-/* End Main Box Slider images */
-
-
-.info {
-  display: flex;
-  width: 95%;
-  height: auto;
-  border: 1px solid #000;
-  margin: 1em;
-}
-
-@media screen and (max-width: 500px) {
-  .info {
-    display: inline-flex;
-    flex-direction: column;
-    width: 95%;
-  }
-}
-
-/* Main Boxes */
-
-.box1 {
-  width : 35%;
-  height: auto;
-  margin: .5em;
-  padding: .5em;
-  text-align: center;
-}
-
-@media screen and (max-width: 500px) {
-  .box1 {
-    width: 95%;
-  }
-}
-
-.box2 {
-  width : 35%;
-  height: auto;
-  margin: .5em;
-  padding: .5em;
-  border-left: 1px dotted #000;
-  text-align: center;
-}
-
-@media screen and (max-width: 500px) {
-  .box2 {
-    width: 95%;
-    border: none;
-  }
-}
-
-.box3 {
-  width : 35%;
-  height: auto;
-  margin: .5em;
-  padding: .5em;
-  border-left: 1px dotted #000;
-  text-align: center;
-}
-
-@media screen and (max-width: 500px) {
-  .box3 {
-    width: 95%;
-    border: none;
-  }
-}
-
-/* Main Boxes End */
-
-.about {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  height: auto;
-  margin-bottom: 1em;
-}
-
-@media screen and (max-width: 800px) {
-  .about {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    width: 95%;
-    border: none;
-  }
-}
-
-.photo {
-  justify-content: center;
-  width: 50%;    
-  height: auto;
-  margin-top: 2em;                                                       
-}
-.photo1 {
-  justify-content: center;
-  width: 30%;    
-  height: auto;
-  margin-top: 2em;                                                       
-}
-
-
-@media screen and (max-width: 800px) {
-  .photo {
-    flex-direction: column;
-    width: 30%;
-    border: none;
-  }
-}
-
-
-#signature {
-  width: 50%;
-  margin-left: 5em;
-  margin-right: 5em;
-  margin-top: 2em;
-}
-
-.content {
-  width: 90%;
-  height: auto;
-  margin-top: 1.5em;
-  text-align: center;
-}
-
-.contenttwo {
-  width: 90%;
-  height: auto;
-  margin: 1.5em;
-  text-align: center;
-}
-
-@media screen and (max-width: 800px) {
-  .content {
-    flex-direction: column;
-    width: 95%;
-    border: none;
-    margin-left: 1.5em;
-  }
-}
 
 /* offCanvas Nav Bar */
 
 #container {
+  display: flex;
+  flex-direction: row;
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   padding: .5em;
   margin-top: .5em;
+  border-bottom: 1px #4895EF solid;
 }
 
 #test {
   color:#fff;
+  margin-top: 1em;
 }
 
 #test:hover {
@@ -310,33 +126,361 @@ span.navbar-toggler-icon:hover {
   background-color: transparent;
 }
 
+.nav-icons {
+  width: 100%;
+  
+
+}
+
+
+#profile {
+  width: 14%;
+  margin: 1em;
+
+  
+}
+
+#cart {
+  width: 11%;
+  margin: 1em;
+}
+
 /* offCanvas Nav Bar Ends Here */
 
 
 
 
-/* About ToF Page */
+/* Main Page */
 
-
-
-
-
-/* End About ToF Page */
-
-
-
-/* Portfolio Pages */
-
-
-.portfolio {
+.main { 
   display: flex;
-  justify-content: center;
+  width: 100%;
+  margin-top: 4em;
+  height: auto;
+  border-bottom: 1px solid #4895EF;
 }
 
-#pic {
-  width: 15%;
+
+@media (max-width: 1050px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   
+  }
+
+  .main-image {
+    width: 90%;
+    margin-bottom: 2em;
+   
+  }
+
+  .main-content {
+    width: 100%;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    text-align: center;
+   
+  }
+
+  .main-content h1 {
+    font-size: 65px;
+    text-align: center;
+  }
+  
+  }
+
+
+.main-content {
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+  margin-right: 5em;
+  margin-bottom: 2em;
+}
+
+.main-image {
+  width: 60%;
+  margin-bottom: 2em;
+  margin-left: 5em;
+  margin-right: 2em;
+}
+
+.main-content h1 {
+  font-size: 90px;
+  text-align: center;
+}
+
+
+@media (max-width: 1050px) {
+  .main-content h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 1em;
+  }
+
+
+#main-button {
+  width: 15em;
+  border-radius: 4em;
+  margin-top: 3em;
+  margin-left: 3.5em;
+  padding: 1em;
+  align-self: center;
+  background-color: #3F37C9;
+  color: #fff;
+}
+  }
+
+
+#main-image {
+  width: 85%;
+}
+
+
+#main-button {
+  width: 15em;
+  border-radius: 4em;
+  margin-top: 3em;
+  padding: 1em;
+  align-self: center;
+  background-color: #3F37C9;
+  color: #fff;
+}
+
+/* End of Main Page */
+
+
+
+/* Product Section */
+
+.product-container {
+  width: 100%;
+  height: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  
+}
+
+@media (max-width: 1050px) {
+  .products {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .product-card {
+    width: 95%;
+    text-align: center;
+    border-radius: .5em;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+   }
+  }
+  
+  @media (max-width: 1150px) {
+    .products {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 2em;
+    }
+  
+    .product-card {
+      margin: 2em;
+      text-align: center;
+      border-radius: .5em;
+      box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+     }
+    }
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.product-card {
+ width: 288px;
+ height: 395px;
+ margin: 2em;
+ text-align: center;
+ border-radius: .5em;
+ box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+}
+
+.product-title {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#product-title {
+  font-weight: 700;
+}
+
+#item {
+  width: 60%;
+  margin-top: 3em;
+  margin-left: 3.5em;
+  margin-right: 3em;
+  margin-bottom: 1em;
+}
+
+#product-button {
+  width: 100%;
+  margin-top: 1em;
+  background-color: #4895EF;
+}
+
+
+
+/* End of Slider Section */
+
+
+/* Call-To-Action Homepage */
+
+.cta-one {
+  width: 100%;
+  height: auto;
+  background-color: #4CC9F0;
+  margin-bottom: 2em;
+  padding: 3em;
+  text-align: center;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+}
+
+  
+
+  .cta-one h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: .5em;
+  
+  }
+
+.cta-one button {
+  width: 11em;
+  border: 2px solid #fff;
+  background-color: #4CC9F0;
+  border-radius: 3em;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  
+ 
+}
+/* End Call-To-Action Homepage */
+
+
+/* Reviews - Homepage Section */
+
+.review-container {
+  width: 100%;
+  height: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media (max-width: 1150px) {
+  .box-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+.review-boxes {
+  width:15em;
+  height: auto;
+  border: 2px solid #3F37C9;
+  margin: 4em;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+  text-align: center;
+  align-items: center;
+}
+  }
+
+
+.review-boxes {
+  width:15em;
+  height: auto;
+  border: 2px solid #3F37C9;
+  margin: 4em;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
+  text-align: center;
+}
+
+.review-boxes p {
+  font-weight: 700;
+  padding: .5em;
+}
+
+#reviewer {
+  align-self: center;
+  width: 40%;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+#stars {
+  margin-bottom: 1em;
+}
+
+/* End of Reviews - Homepage Section */
+
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #4895EF;
+}
+
+
+@media (max-width: 1150px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #4895EF;
+  }
+}
+
+.foot-box {
+  width: 12em;
+  height: auto;
+  text-align: center;
   margin: 2em;
 }
 
+#second {
+  width: 100%;
+}
 
-/* End of Portfolio Pages */
+.footer h4 {
+  font-weight: 700;
+}
+
+/* End of Footer Section */
