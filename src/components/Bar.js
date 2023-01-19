@@ -11,6 +11,7 @@ import { Route, Routes, Link } from "react-router-dom"
 import logo from './images/logo.png';
 import profile from './images/profile.png';
 import cart from './images/cart.png';
+import Shop from './Shop';
 
 
 
@@ -47,7 +48,7 @@ function Bar() {
                  
                   
                   <Link id="link" to="/">Home</Link> 
-                  <Link id="link" to="#">Shop</Link>
+                  <Link id="link" to="Shop">Shop</Link>
                   <Link id="link" to="#">Schedule Delivery</Link>
                   <Link id="link" to="#">Track Orders</Link>
                   

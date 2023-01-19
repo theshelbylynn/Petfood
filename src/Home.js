@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './components/Main';
 import Products from './components/Products';
-import Footer from './components/Footer';
+
 import one from './components/images/reviewer-one.png';
 import two from './components/images/reviewer-two.png';
 import three from './components/images/reviewer-three.png';
@@ -58,7 +58,6 @@ function Home() {
 
       </div>
 
-      <Footer />
     </>
     
  
