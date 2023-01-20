@@ -1,4 +1,6 @@
 import main from './images/main.png';
+import { Route, Routes, Link } from "react-router-dom"
+
 
 function Main() {
     return(
@@ -10,7 +12,7 @@ function Main() {
   
       <div className='main-content'>
         <h1>Premium Pet Food</h1>
-        <button id="main-button">Click Here</button>
+       <a href="/Shop"><button id="main-button">Order Now</button></a>
         </div>
       </div>
     );

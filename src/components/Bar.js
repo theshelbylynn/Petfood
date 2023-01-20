@@ -22,7 +22,7 @@ function Bar() {
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container id="container" fluid>
 
-            <Navbar.Brand href="#">
+            <Navbar.Brand>
              
             <img id="nav-logo" className="logo" src={logo} alt="logo" />
             

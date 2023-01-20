@@ -2,6 +2,9 @@ import DogFood from './DogFood';
 import CatFood from './CatFood';
 import Treats from './Treats';
 import two from './images/cta-two.png';
+import DogFoodPage from './DogFoodPage';
+import { Route, Routes, Link } from "react-router-dom"
+
 
 
 function Shop() {
@@ -32,9 +35,9 @@ function Shop() {
             <DogFood />
 
             <div className='button-container'>
-            <button id="shop-button">See More</button>
+           <a href="/DogFoodPage"><button id="shop-button">See More</button></a>
             </div>
-           
+          
         </div>
 
         <div className="banner">
@@ -44,7 +47,8 @@ function Shop() {
         <div className='product-container'>
             <CatFood />
             <div className='button-container'>
-            <button id="shop-button">See More</button>
+            <a href="/CatFoodPage">
+            <button id="shop-button">See More</button></a>
             </div>
         </div>
 
@@ -56,7 +60,8 @@ function Shop() {
         <div className='product-container'>
             <Treats />
             <div className='button-container'>
-            <button id="shop-button">See More</button>
+            <a href="/TreatPage">
+            <button id="shop-button">See More</button></a>
             </div>
         </div>
 
