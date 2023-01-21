@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import DogFoodPage from './components/DogFoodPage';
 import CatFoodPage from './components/CatFoodPage';
 import TreatPage from './components/TreatPage';
+import ProductPage from './components/ProductPage';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Route path="DogFoodPage" element={<DogFoodPage />} />
       <Route path="CatFoodPage" element={<CatFoodPage />} />
       <Route path="TreatPage" element={<TreatPage />} />
+      <Route path="ProductPage" element={<ProductPage />} />
       </Routes>
       <Footer />
     </div>

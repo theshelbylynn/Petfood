@@ -56,8 +56,8 @@ function DogFoodPage() {
 
     <div className="product-card">
        
-            <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" id="item" src={one} alt="Dog Food" /> 
+            <Card style={{ width: '14rem' }}>
+            <a href="/ProductPage"><Card.Img variant="top" id="item" src={one} alt="Dog Food" /> </a>
           <Card.Body>
             <Card.Title id="product-title">Card Title</Card.Title>
             <Card.Text>
@@ -71,8 +71,8 @@ function DogFoodPage() {
     
     <div className="product-card">
        
-       <Card style={{ width: '18rem' }}>
-     <Card.Img variant="top" id="item" src={dog2} alt="Dog Food" /> 
+       <Card style={{ width: '14rem' }}>
+       <a href="/ProductPage"> <Card.Img variant="top" id="item" src={dog2} alt="Dog Food" /> </a>
      <Card.Body>
        <Card.Title id="product-title">Card Title</Card.Title>
        <Card.Text>
@@ -85,8 +85,8 @@ function DogFoodPage() {
 
 <div className="product-card">
        
-       <Card style={{ width: '18rem' }}>
-     <Card.Img variant="top" id="item" src={dog3} alt="Dog Food" /> 
+       <Card style={{ width: '14rem' }}>
+       <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog3} alt="Dog Food" /> </a>
      <Card.Body>
        <Card.Title id="product-title">Card Title</Card.Title>
        <Card.Text>
@@ -99,8 +99,8 @@ function DogFoodPage() {
 
 <div className="product-card">
        
-       <Card style={{ width: '18rem' }}>
-     <Card.Img variant="top" id="item" src={dog4} alt="Dog Food" /> 
+       <Card style={{ width: '14rem' }}>
+       <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog4} alt="Dog Food" /> </a>
      <Card.Body>
        <Card.Title id="product-title">Card Title</Card.Title>
        <Card.Text>
@@ -115,8 +115,8 @@ function DogFoodPage() {
 
 <div className="product-card">
        
-       <Card style={{ width: '18rem' }}>
-     <Card.Img variant="top" id="item" src={dog5} alt="Dog Food" /> 
+       <Card style={{ width: '14rem' }}>
+       <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog5} alt="Dog Food" /></a> 
      <Card.Body>
        <Card.Title id="product-title">Card Title</Card.Title>
        <Card.Text>
@@ -130,8 +130,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog6} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog6} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -144,8 +144,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog7} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog7} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -158,8 +158,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog8} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog8} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -175,8 +175,8 @@ function DogFoodPage() {
 
 <div className="product-card">
        
-       <Card style={{ width: '18rem' }}>
-     <Card.Img variant="top" id="item" src={dog9} alt="Dog Food" /> 
+       <Card style={{ width: '14rem' }}>
+       <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog9} alt="Dog Food" /></a> 
      <Card.Body>
        <Card.Title id="product-title">Card Title</Card.Title>
        <Card.Text>
@@ -190,8 +190,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog10} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog10} alt="Dog Food" /> </a>
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -204,8 +204,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog11} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog11} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -218,8 +218,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog12} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog12} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -234,8 +234,8 @@ function DogFoodPage() {
 
 <div className="product-card">
        
-       <Card style={{ width: '18rem' }}>
-     <Card.Img variant="top" id="item" src={dog13} alt="Dog Food" /> 
+       <Card style={{ width: '14rem' }}>
+       <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog13} alt="Dog Food" /></a>
      <Card.Body>
        <Card.Title id="product-title">Card Title</Card.Title>
        <Card.Text>
@@ -249,8 +249,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog14} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog14} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -263,8 +263,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog15} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog15} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>
@@ -277,8 +277,8 @@ function DogFoodPage() {
 
 <div className="product-card">
   
-  <Card style={{ width: '18rem' }}>
-<Card.Img variant="top" id="item" src={dog16} alt="Dog Food" /> 
+  <Card style={{ width: '14rem' }}>
+  <a href="/ProductPage"><Card.Img variant="top" id="item" src={dog16} alt="Dog Food" /></a> 
 <Card.Body>
   <Card.Title id="product-title">Card Title</Card.Title>
   <Card.Text>

@@ -178,7 +178,6 @@ span.navbar-toggler-icon:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    display: flex;
    align-items: center;
    
   }
@@ -323,9 +322,10 @@ span.navbar-toggler-icon:hover {
   margin-bottom: 2em;
 }
 
+
 .product-card {
- width: 288px;
- height: 395px;
+ width: 14rem;
+ height: auto;
  margin: 1em;
  text-align: center;
  border-radius: .5em;
@@ -344,7 +344,7 @@ span.navbar-toggler-icon:hover {
 #item {
   width: 60%;
   margin-top: 3em;
-  margin-left: 3.5em;
+  margin-left: 3em;
   margin-right: 3em;
   margin-bottom: 1em;
 }
@@ -782,11 +782,193 @@ font-weight: 500;
 
 /* End of Call to Action - Dog Food Page */
 
-/* Dog Food Page Shop Page */
+
+/* Product Page */
+
+
+@media (max-width: 800px) {
+
+  .product-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border-bottom: #3F37C9 1px solid;
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+
+  .product-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin-bottom: 2em;
+  }
+
+  }
+
+
+.product-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  border-bottom: #3F37C9 1px solid;
+  margin-top: 7em;
+  margin-bottom: 4em;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+
+#example {
+  width: 70%;
+  
+}
+
+.product-description {
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+
+
+.product-description h3 {
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.product-description h4 {
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.product-description p {
+  margin: 2em;
+  font-size: 14px;
+}
+
+#qty {
+  width: 2em;
+  margin: 1em;
+}
+
+#qty-label {
+  font-weight: 700;
+}
+
+.product-page-button {
+text-align: center;
+}
+
+#add-to-cart {
+  width: 15em;
+  border-radius: 4em;
+  padding: 1em;
+  align-self: center;
+  background-color: #3F37C9;
+  color: #fff;
+  font-weight: 700;
+  margin: 2em 0em;
+}
+
+.related-product-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #4ccaf0a5;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.related-products {
+  width: 95%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.related-title h1{
+  color: #000;
+  margin-top: 1em;
+}
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  height: 150px;
+  background-color: #fff;
+  border:#3F37C9 2px solid;
+  margin: 2em;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.review-image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 148px;
+  background-color: #3F37C9;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.review-image p {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  
+}
+
+#review {
+  align-self: center;
+  width: 40%;
+  margin-top: .5em;
+  margin-bottom: .2em;
+}
+#stars {
+  align-self: center;
+  width: 30%;
+  margin-top: -.5em;
+  margin-bottom: .5em;
+}
+
+
+.review-text {
+  width: 60%;
+  height: auto;
+  text-align: center;
+  font-weight: 600;
+  margin: 1em;
+  font-size: 13px;
+  padding: .2em;
+}
 
 
 
+/* End of Product Page */
 
-/* End of Dog Food Page Shop Page */
+
+
 
 /* END OF CODE FOR PAGES */

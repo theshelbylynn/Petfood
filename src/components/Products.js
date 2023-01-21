@@ -18,8 +18,8 @@ function Products() {
 <div className='products'>
 <div className="product-card">
    
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" id="item" src={one} alt="Dog Food" /> 
+        <Card style={{ width: '14rem' }}>
+        <a href="/ProductPage"><Card.Img variant="top" id="item" src={one} alt="Dog Food" /> </a>
       <Card.Body>
         <Card.Title id="product-title">Card Title</Card.Title>
         <Card.Text>
@@ -31,8 +31,8 @@ function Products() {
 </div>
 
 <div className="product-card">
-    <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" id="item" src={two} alt="Cat Treats" /> 
+    <Card style={{ width: '14rem' }}>
+    <a href="/ProductPage"><Card.Img variant="top" id="item" src={two} alt="Cat Treats" /> </a>
       <Card.Body>
         <Card.Title id="product-title">Card Title</Card.Title>
         <Card.Text>
@@ -44,8 +44,8 @@ function Products() {
 </div>
 
 <div className="product-card">
-    <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" id="item" src={three} alt="Dog Treats" /> 
+    <Card style={{ width: '14rem' }}>
+    <a href="/ProductPage"><Card.Img variant="top" id="item" src={three} alt="Dog Treats" /> </a>
       <Card.Body>
         <Card.Title id="product-title">Card Title</Card.Title>
         <Card.Text>
@@ -57,8 +57,8 @@ function Products() {
 </div>
 
 <div className="product-card">
-    <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" id="item" src={four} alt="Cat Food" /> 
+    <Card style={{ width: '14rem' }}>
+    <a href="/ProductPage"><Card.Img variant="top" id="item" src={four} alt="Cat Food" /> </a>
       <Card.Body>
         <Card.Title id="product-title">Card Title</Card.Title>
         <Card.Text>
