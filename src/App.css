@@ -970,5 +970,158 @@ text-align: center;
 
 
 
+/* Account Page */
+
+.account-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3em;
+}
+
+.account-container h6 {
+  font-weight: 700;
+  margin: 1.5em;
+  font-size: 20px;
+}
+.account-container h5 {
+  font-size: 16px;
+  margin-top: 2em;
+ 
+}
+
+.info-title {
+  width: 50%;
+  height: auto;
+  margin-left: .5em;
+}
+
+
+@media (min-width: 900px) {
+  .info-title {
+    width: 40%;
+    height: auto;
+    margin-left: 12em;
+  }
+
+  .account-container h6 {
+    font-weight: 700;
+    margin-top: 1.5em;
+    font-size: 24px;
+  }
+
+  .account-container h5 {
+    font-size: 20px;
+    margin-top: 2em;
+  }
+  }
+
+
+.customer-info {
+  width: 50%;
+  height: auto;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: #3F37C9 1px solid;
+}
+
+#upload {
+  width: 15%;
+  margin: 3em;
+}
+
+.account-button {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* End of Account Page */
+
+
+/* Cart Page */
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-top: 3em;
+  border-top: #3F37C9 1px solid;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: auto;
+  margin: 1em;
+}
+
+.item-image {
+  width: 50%;
+  height: auto;
+  margin-top: 1em;
+}
+
+.item-info {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.item-info h2 {
+  margin-top: 1.5em;
+  font-weight: 700;
+  color: #000;
+}
+.item-info h4 {
+  margin-top: 1em;
+  font-weight: 700;
+  color: #000;
+}
+
+#item-image {
+  width: 70%;
+  margin: 1em;
+  border: #4CC9F0 2px solid;
+  padding: 2em;
+
+}
+
+#remove-button {
+  width: 11em;
+  border-radius: 4em;
+  margin-top: 1em;
+  padding: .5em;
+  align-self: center;
+  background-color: #3F37C9;
+  color: #fff;
+}
+
+.total-section {
+  width: 100%;
+  height: 400px;
+  border-top: #3F37C9 1px solid;
+  margin-top: 2em;
+  text-align: center;
+  padding: 3em;
+}
+
+.total-section h1 {
+  margin: 1em;
+}
+/* End of Cart Page */
+
+
+
+
 
 /* END OF CODE FOR PAGES */

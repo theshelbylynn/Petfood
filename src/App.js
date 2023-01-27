@@ -11,6 +11,8 @@ import DogFoodPage from './components/DogFoodPage';
 import CatFoodPage from './components/CatFoodPage';
 import TreatPage from './components/TreatPage';
 import ProductPage from './components/ProductPage';
+import Account from './components/Account';
+import Cart from './components/Cart';
 
 
 
@@ -27,6 +29,8 @@ function App() {
       <Route path="CatFoodPage" element={<CatFoodPage />} />
       <Route path="TreatPage" element={<TreatPage />} />
       <Route path="ProductPage" element={<ProductPage />} />
+      <Route path="Account" element={<Account />} />
+      <Route path="Cart" element={<Cart />} />
       </Routes>
       <Footer />
     </div>

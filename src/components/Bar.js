@@ -53,8 +53,15 @@ function Bar() {
                   <Link id="link" to="#">Track Orders</Link>
                   
                   <div className='nav-icons'>
+
+            <a href="/Account">
             <img id="profile" className="profile" src={profile} alt="profile icon" />
+            </a>
+
+            <a href="/Cart">
             <img id="cart" className="cart" src={cart} alt="cart icon" />
+            </a>
+            
             </div>
                   {/* <NavDropdown 
                     title="Portfolio"
