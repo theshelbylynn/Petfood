@@ -533,7 +533,7 @@ span.navbar-toggler-icon:hover {
 
 .page-title h1 {
   text-align: center;
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -1044,6 +1044,8 @@ text-align: center;
 /* End of Account Page */
 
 
+
+
 /* Cart Page */
 
 .cart-container {
@@ -1119,6 +1121,117 @@ text-align: center;
   margin: 1em;
 }
 /* End of Cart Page */
+
+
+
+
+/* Confirmation Pages */
+
+.order-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  background-image: url("components/images/background.png");
+}
+
+.order-title {
+  width: 60%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.486);
+  padding: 9em;
+  text-align: center;
+}
+
+.order-title h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+#track-button {
+  width: 15em;
+  border-radius: 4em;
+  margin-top: 3em;
+  padding: 1em;
+  align-self: center;
+  background-color: #3F37C9;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+@media (max-width: 700px) {
+  .order-title {
+    width: 70%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 0;
+    text-align: center;
+  }
+  
+  .order-title h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 2.5em;
+  }
+  }
+
+/* End of Confirmation Pages */
+
+
+/* Schedule Page */
+
+.schedule-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border-top: #3F37C9 1px solid;
+  padding: 2em;
+}
+
+.schedule-input {
+  width: 25%;
+  height: auto;
+  margin: .2em;
+}
+
+#often {
+  width: 20%;
+  text-align: center;
+  font-weight: 500;
+  margin: 1em;
+  padding: .4em;
+  border: 1px solid #E0E0E0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+@media (max-width: 1050px) {
+  .schedule-input {
+    width: 80%;
+    height: auto;
+    margin: .2em;
+  }
+
+  #often {
+    width: 70%;
+    text-align: center;
+    font-weight: 500;
+    margin: 1em;
+    padding: .4em;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+}
+
+/* End of Schedule Page */
+
 
 
 

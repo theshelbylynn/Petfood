@@ -49,7 +49,7 @@ function Bar() {
                   
                   <Link id="link" to="/">Home</Link> 
                   <Link id="link" to="Shop">Shop</Link>
-                  <Link id="link" to="#">Schedule Delivery</Link>
+                  <Link id="link" to="SchedulePage">Schedule Delivery</Link>
                   <Link id="link" to="#">Track Orders</Link>
                   
                   <div className='nav-icons'>

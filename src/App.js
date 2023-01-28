@@ -13,6 +13,9 @@ import TreatPage from './components/TreatPage';
 import ProductPage from './components/ProductPage';
 import Account from './components/Account';
 import Cart from './components/Cart';
+import Order from './components/OrderReceived';
+import Removed from './components/ItemRemoved';
+import Schedule from './components/SchedulePage';
 
 
 
@@ -31,6 +34,9 @@ function App() {
       <Route path="ProductPage" element={<ProductPage />} />
       <Route path="Account" element={<Account />} />
       <Route path="Cart" element={<Cart />} />
+      <Route path="OrderReceived" element={<Order />} />
+      <Route path="ItemRemoved" element={<Removed />} />
+      <Route path="SchedulePage" element={<Schedule />} />
       </Routes>
       <Footer />
     </div>
