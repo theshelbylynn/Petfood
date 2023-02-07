@@ -16,6 +16,7 @@ import Cart from './components/Cart';
 import Order from './components/OrderReceived';
 import Removed from './components/ItemRemoved';
 import Schedule from './components/SchedulePage';
+import Checkout from './components/Checkout';
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <Route path="OrderReceived" element={<Order />} />
       <Route path="ItemRemoved" element={<Removed />} />
       <Route path="SchedulePage" element={<Schedule />} />
+      <Route path="Checkout" element={<Checkout />} />
       </Routes>
       <Footer />
     </div>

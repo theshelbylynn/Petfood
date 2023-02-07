@@ -4,7 +4,7 @@ import { Route, Routes, Link } from "react-router-dom"
 
 function Main() {
     return(
-        <div className='main'>
+               <div className='main'>
 
         <div className='main-image'>
         <img id="main-image" src={main} alt="dog and cat in grass" />

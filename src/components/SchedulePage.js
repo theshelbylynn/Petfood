@@ -2,6 +2,7 @@ import dog10 from './images/dog10.png';
 import treat10 from './images/treat10.png';
 import cat9 from './images/cat9.png';
 
+
 function Schedule() {
     return(
         <>
