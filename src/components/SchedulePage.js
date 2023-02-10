@@ -29,9 +29,12 @@ function Schedule() {
             </form>
 
                 <h4>Total : $0.00</h4>
+
+                <a href="/ItemRemoved">
                 <button id="remove-button">
                     Remove
                 </button>
+                </a>
                 </div>
                 </div>
 
@@ -51,9 +54,12 @@ function Schedule() {
             </form>
 
                 <h4>Total : $0.00</h4>
+
+                <a href="/ItemRemoved">
                 <button id="remove-button">
                     Remove
                 </button>
+                </a>
                 </div>
                 </div>
 
@@ -74,9 +80,12 @@ function Schedule() {
             </form>
 
                 <h4>Total : $0.00</h4>
+
+                <a href="/ItemRemoved">
                 <button id="remove-button">
                     Remove
                 </button>
+                </a>
                 </div>
                 </div>
 
@@ -111,9 +120,11 @@ function Schedule() {
 
                 <h1>Total : $0.00</h1>
 
+               <a href="/Checkout">
                 <button id="shop-button">
                     Checkout
                 </button>
+                </a>
             </div>
 
         </div>

@@ -12,7 +12,7 @@ function Checkout() {
         <div className="checkout-container">
 
         <h4>Customer Info</h4>
-            <div className="customer-info">
+            <div className="customer-information">
 
             <div className="labels">
 

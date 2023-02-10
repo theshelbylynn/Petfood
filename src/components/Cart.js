@@ -30,9 +30,11 @@ function Cart() {
 
 
                 <h4>Total : $0.00</h4>
+                <a href="/ItemRemoved">
                 <button id="remove-button">
                     Remove
                 </button>
+                </a>
                 </div>
                 </div>
 
@@ -52,9 +54,11 @@ function Cart() {
             </div>
 
                 <h4>Total : $0.00</h4>
+                <a href="/ItemRemoved">
                 <button id="remove-button">
                     Remove
                 </button>
+                </a>
                 </div>
                 </div>
 
@@ -75,9 +79,11 @@ function Cart() {
             </div>
 
                 <h4>Total : $0.00</h4>
+                <a href="/ItemRemoved">
                 <button id="remove-button">
                     Remove
                 </button>
+                </a>
                 </div>
                 </div>
 
