@@ -48,7 +48,7 @@ function Bar() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                  
                   
-                  <Link id="link" to="/">Home</Link>
+                  <Link data-bs-toggle="collapse" id="link" to="/">Home</Link>
                   <Link id="link" to="Shop">Shop</Link>
                   <Link id="link" to="SchedulePage">Schedule Delivery</Link>
                   <Link id="link" to="#">Track Orders</Link>

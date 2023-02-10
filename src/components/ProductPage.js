@@ -26,10 +26,10 @@ function ProductPage() {
             <h4>$0.00</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet, velit at tristique tincidunt, leo diam maximus diam, vitae lacinia ex leo quis enim. Suspendisse rutrum metus augue.</p>
 
-            <form>
+            
                 <label id="qty-label">Qty.</label>
                 <input id="qty"></input>
-            </form>
+            
 
             <div className='product-page-button'>
             <button id="add-to-cart">Add to Cart</button>

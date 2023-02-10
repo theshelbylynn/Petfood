@@ -21,10 +21,13 @@ function Cart() {
                 <div className="item-info">
                     <h2>Product Title</h2>
 
-            <form>
-                <label id="qty-label">Qty.</label>
+            <div className='checkbox'>
+    
+                <label id="checkbox-label">Qty.</label>
                 <input id="qty"></input>
-            </form>
+          
+            </div>
+
 
                 <h4>Total : $0.00</h4>
                 <button id="remove-button">
@@ -43,10 +46,10 @@ function Cart() {
                 <div className="item-info">
                     <h2>Product Title</h2>
 
-            <form>
-                <label id="qty-label">Qty.</label>
+            <div className='checkbox'>
+                <label id="checkbox-label">Qty.</label>
                 <input id="qty"></input>
-            </form>
+            </div>
 
                 <h4>Total : $0.00</h4>
                 <button id="remove-button">
@@ -66,10 +69,10 @@ function Cart() {
                 <div className="item-info">
                     <h2>Product Title</h2>
 
-            <form>
-                <label id="qty-label">Qty.</label>
+            <div className='checkbox'>
+                <label id="checkbox-label">Qty.</label>
                 <input id="qty"></input>
-            </form>
+            </div>
 
                 <h4>Total : $0.00</h4>
                 <button id="remove-button">
@@ -81,7 +84,7 @@ function Cart() {
             <div className="total-section">
             
                 <input id="qty" type="checkbox"></input>
-                <label id="qty-label">Make this order a subscription</label>
+                <label id="checkbox-label">Make this order a subscription</label>
                 <h1>Total : $0.00</h1>
 
                 <button id="shop-button">
